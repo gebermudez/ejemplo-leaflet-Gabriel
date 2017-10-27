@@ -30,12 +30,12 @@
       attribution: '<a href="http://www.openstreetmap.org/">OpenStreetMap</a>'
       });
      	    
-      var mbox = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZ2ViZXJtdWRleiIsImEiOiJjajg1NnFuMDYwOHZsMnF1ZDJycTJhcWQ4In0.-sG176f_AzqyGxEnyzQvbw', {
-      attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-      id: 'mapbox.satellite',
-      accessToken: 'pk.eyJ1IjoiZ2ViZXJtdWRleiIsImEiOiJjajg1NnFuMDYwOHZsMnF1ZDJycTJhcWQ4In0.-sG176f_AzqyGxEnyzQvbw'
-      });
-      osm.addTo(map);
+     var mbox = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibXZhcmdhcyIsImEiOiJRc3ZyTmZzIn0.npefgTinHjwxhTt8fjzeIw', { 
+     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>', 
+     id: 'mapbox.satellite', 
+     accessToken: 'pk.eyJ1IjoibXZhcmdhcyIsImEiOiJRc3ZyTmZzIn0.npefgTinHjwxhTt8fjzeIw' });
+     osm.addTo(map);
+	    
   	    
       // retorna un color con base en la cantidad de especies
       function color(d) {
